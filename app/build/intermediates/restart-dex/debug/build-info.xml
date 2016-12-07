@@ -5,26 +5,26 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="18644965610384"
+    timestamp="18959421216409"
     token="-6359740645681068387"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="199" />
+        duration="80" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="119" />
+        duration="13" />
     <task
         name="verifier"
-        duration="46" />
+        duration="2" />
 
     <artifact
-        location="F:\Hanks_AndroidCode\UsingGesture1\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+        type="DEX" />
 
     <build
         timestamp="18644965610384"
@@ -32,6 +32,13 @@
         <artifact
             location="F:\Hanks_AndroidCode\UsingGesture1\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="18959421216409"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

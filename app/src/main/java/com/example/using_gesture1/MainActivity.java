@@ -14,50 +14,41 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class MainActivity extends Activity
-{
+public class MainActivity extends Activity {
 	GestureOverlayView gestureOverlay;
 	GestureLibrary gestureLibrary;
 	TextView textView1;
 	ImageView imageView1;
 	
-	private void findGestureLib()
-	{
+	private void findGestureLib() {
 		gestureLibrary = GestureLibraries.fromRawResource(this, R.raw.gestures);
-		if (!gestureLibrary.load())
-		{
+		if (!gestureLibrary.load()) {
 			finish();
 		}
 	}
 	
 	@Override
-	protected void onCreate(Bundle savedInstanceState)
-	{
+	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		findGestureLib();
 		findViews();
 	}
 
-	void findViews()
-	{
+	void findViews() {
 		textView1 = (TextView) findViewById(R.id.textView1);
 		imageView1 = (ImageView) findViewById(R.id.imageView1);
 		gestureOverlay = (GestureOverlayView) findViewById(R.id.gestureOverlay);
 		gestureOverlay.addOnGesturePerformedListener(gestureListener);
 	}
 
-	OnGesturePerformedListener gestureListener = new OnGesturePerformedListener()
-	{
+	OnGesturePerformedListener gestureListener = new OnGesturePerformedListener() {
 		@Override
-		public void onGesturePerformed(GestureOverlayView overlay,
-				Gesture gesture)
-		{
+		public void onGesturePerformed(GestureOverlayView overlay, Gesture gesture) {
 
 			ArrayList<Prediction> predictions = gestureLibrary.recognize(gesture);
 			System.out.println(predictions);
-			if (predictions.size() > 0 && predictions.get(0).score > 5)
-			{
+			if (predictions.size() > 0 && predictions.get(0).score > 5) {
 				String gestureName = predictions.get(0).name;
 				if(gestureName.equals("toRight"))
 					changeText();
@@ -69,15 +60,13 @@ public class MainActivity extends Activity
 		}
 	};
 
-	public void changeImage()
-	{
+	public void changeImage() {
 		int[] iconResID = {R.drawable.backup,R.drawable.browser,R.drawable.calculator,R.drawable.contacts,R.drawable.document};
 		imageView1.setImageResource(iconResID[(int) (Math.random() * 5)]);
 		textView1.setText("你好嗎");
 	}
 
-	public void changeText()
-	{
+	public void changeText() {
 		int r = (int) (Math.random() * 255);
 		int g = (int) (Math.random() * 255);
 		int b = (int) (Math.random() * 255);
@@ -87,8 +76,7 @@ public class MainActivity extends Activity
 		textView1.setTextSize(50);
 	}
 
-	public void restore()
-	{
+	public void restore() {
 		setContentView(R.layout.activity_main);
 		findViews();
 	}
