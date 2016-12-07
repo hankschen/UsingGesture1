@@ -80,11 +80,11 @@
         "source": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\src\\main\\res\\drawable-hdpi\\photos.png"
     },
     {
-        "merged": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\setting.png",
-        "source": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\src\\main\\res\\drawable-hdpi\\setting.png"
-    },
-    {
         "merged": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\messages.png",
         "source": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\src\\main\\res\\drawable-hdpi\\messages.png"
+    },
+    {
+        "merged": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\setting.png",
+        "source": "F:\\Hanks_AndroidCode\\UsingGesture1\\app\\src\\main\\res\\drawable-hdpi\\setting.png"
     }
 ]

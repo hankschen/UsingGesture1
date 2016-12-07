@@ -1,0 +1,7 @@
+#Wed Dec 07 15:46:25 CST 2016
+base.0=F\:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e613949cec3f888e2fc6109bb5890f841e9edd2e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_21e88e2543214f9964d5df22a531efd5c05d7bd4\\classes.dex
+base.1=F\:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_21e88e2543214f9964d5df22a531efd5c05d7bd4
+file.0=F\:\\Hanks_AndroidCode\\UsingGesture1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_e613949cec3f888e2fc6109bb5890f841e9edd2e\\classes.dex

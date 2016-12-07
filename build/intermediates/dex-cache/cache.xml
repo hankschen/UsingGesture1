@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27a9202b2346004ab9b3110cb36d9ba096cd9a8e">
+        <dex dex="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_21e88e2543214f9964d5df22a531efd5c05d7bd4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Hanks_AndroidCode\UsingGesture1\app\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b20dc871d179ba476082efe543dc1b38db46e30">
+        <dex dex="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_f617cb14b6896b949ac3e118d6407db4adabbc5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d3d5fbd2c6f2250c87ca887794ec275aa92ea43">
+        <dex dex="F:\Hanks_AndroidCode\UsingGesture1\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e613949cec3f888e2fc6109bb5890f841e9edd2e\classes.dex" />
+    </item>
+
+</items>

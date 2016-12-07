@@ -1,18 +1,18 @@
 package com.example.using_gesture1;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.gesture.Gesture;
 import android.gesture.GestureLibraries;
 import android.gesture.GestureLibrary;
 import android.gesture.GestureOverlayView;
-import android.gesture.Prediction;
 import android.gesture.GestureOverlayView.OnGesturePerformedListener;
+import android.gesture.Prediction;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends Activity
 {
@@ -73,7 +73,7 @@ public class MainActivity extends Activity
 	{
 		int[] iconResID = {R.drawable.backup,R.drawable.browser,R.drawable.calculator,R.drawable.contacts,R.drawable.document};
 		imageView1.setImageResource(iconResID[(int) (Math.random() * 5)]);
-		textView1.setText("Εά§σΉΟ¤ω¤F");
+		textView1.setText("δ½ ε¥½ε—");
 	}
 
 	public void changeText()
@@ -82,7 +82,7 @@ public class MainActivity extends Activity
 		int g = (int) (Math.random() * 255);
 		int b = (int) (Math.random() * 255);
 		System.out.println("r = " + r);
-		textView1.setText("Εά§σ¤ε¦r¤F");
+		textView1.setText("ζ‘εΎε¥½");
 		textView1.setTextColor(Color.rgb(r, g, b));
 		textView1.setTextSize(50);
 	}
